@@ -33,19 +33,6 @@
 <!-----------------------------/BOOTSTRAP----------------------------->
 
 
-
-
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/nouislider.min.js"></script>
-<script src="js/jquery.zoom.min.js"></script>
-<script src="js/main.js"></script>
-<script type="js/jquery-1.8.0.min"></script>        
-<script src="js/bootstrap.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-
     </head>
     <body style="background-color: #31b0d5">
         
@@ -142,7 +129,7 @@
         <!--/Termina ventana modal-->
         <!--Inicia Carousel-->
         <br><br>
-        <center><h1>Infraestructura  Syscati Bernal</h1></center>
+        <center><h1>Infraestructura  ASI Bernal</h1></center>
         <div class="container">  <!--primer container-->
           <div id="mycarousel" class="carousel slide" data-ride="carousel"> <!--inicia mycarousel-->
              <ol class="carousel-indicators">
