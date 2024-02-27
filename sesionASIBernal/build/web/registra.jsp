@@ -11,11 +11,11 @@
                     <h4>Cliente</h4>
                     <div class="alert-info">
                         <center>
-                            <h3><i>Numero de cliente: $(param.numCliente)</i></h3>
-                            <h3><i>Nombre de cliente: $(param.nomCliente)</i></h3>
-                            <h3><i>Nombre de cliente: $(param.telCliente)</i></h3>
-                            <h3><i>Nombre de cliente: $(param.fechains)</i></h3>
-                            <h3><i>Nombre de cliente: $(param.emailCliente)</i></h3>
+                            <h3><i>Numero de cliente: <%= request.getParameter("numCliente")%></i></h3>
+                            <h3><i>Nombre de cliente: <%= request.getParameter("nomCliente")%></i></h3>
+                            <h3><i>Nombre de cliente: <%= request.getParameter("telCliente")%></i></h3>
+                            <h3><i>Nombre de cliente: <%= request.getParameter("fechains")%></i></h3>
+                            <h3><i>Nombre de cliente: <%= request.getParameter("emailCliente")%></i></h3>
                             <hr>
                             <h3><i>Fecha y hora sistema: <%= new java.util.Date()%></i></h3>
                         </center>
